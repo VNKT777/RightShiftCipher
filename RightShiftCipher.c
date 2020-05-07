@@ -23,12 +23,12 @@ int main(int argc, string argv[])
         }
 
         if (argumentIsNumber == 0) {
-            printf("Usage: ./caesar key\n");
+            printf("Usage: ./RightShiftCipher key\n");
             return 1;
         }
         /*if (key==0)
         {
-            printf("Usage: ./caesar key\n");
+            printf("Usage: ./RightShiftCipher key\n");
             return 1;
         }
         */
@@ -62,7 +62,7 @@ int main(int argc, string argv[])
 
     else
     {
-        printf("Usage: ./caesar key\n");
+        printf("Usage: ./RightShiftCipher key\n");
         return 1;
     }
 }
